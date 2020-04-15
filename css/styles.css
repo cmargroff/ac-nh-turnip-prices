@@ -106,14 +106,21 @@ h2 {
   flex-direction: column;
   padding: 16px;
   align-items: center;
+  max-width: 100%;
 }
 
 .form__row {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 16px;
   justify-content: center;
   align-items: center;
+  margin: 0 -15px;
+}
+
+.form__col{
+  padding: 0 15px;
 }
 
 .form__row h6 {
@@ -140,6 +147,10 @@ h2 {
   flex-direction: column;
   margin: 8px;
   align-items: center;
+}
+
+.input__group.horizontal{
+  flex-direction: row;
 }
 
 .input__group label {
